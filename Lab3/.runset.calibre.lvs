@@ -1,0 +1,22 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /home/gel8580/CE391/Lab2/EECS391/MUX2
+*lvsLayoutPaths: MUX2.calibre.db
+*lvsLayoutPrimary: MUX2
+*lvsLayoutLibrary: EECS391
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: MUX2.src.net
+*lvsSourcePrimary: MUX2
+*lvsSourceLibrary: EECS391
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: MUX2.sp
+*lvsERCDatabase: MUX2.erc.results
+*lvsERCSummaryFile: MUX2.erc.summary
+*lvsReportFile: MUX2.lvs.report
+*lvsMaskDBFile: MUX2.maskdb
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: EECS391
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: MUX2.def

@@ -1,0 +1,18 @@
+*drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
+*drcRunDir: /home/gel8580/CE391/Lab2/EECS391/MUX2
+*drcLayoutPaths: MUX2.calibre.db
+*drcLayoutPrimary: MUX2
+*drcLayoutLibrary: EECS391
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: MUX2.drc.results
+*drcSummaryFile: MUX2.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: EECS391
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: MUX2.def

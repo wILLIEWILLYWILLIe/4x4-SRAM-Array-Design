@@ -1,0 +1,29 @@
+*pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
+*pexRunDir: /home/gel8580/CE391/Lab2/EECS391/MUX2
+*pexLayoutPaths: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.calibre.db
+*pexLayoutPrimary: MUX2
+*pexLayoutLibrary: EECS391
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.src.net
+*pexSourcePrimary: MUX2
+*pexSourceLibrary: EECS391
+*pexSourceGetFromViewer: 1
+*pexIncludeSVRFCmds: 1
+*pexSVRFCmds: {LAYOUT CASE YES} {SOURCE CASE YES} {}
+*pexReportFile: MUX2.lvs.report
+*pexPexNetlistFile: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.pex.netlist
+*pexPexNetlistFormat: CALIBREVIEW
+*pexPexReport: 1
+*pexPexReportFile: MUX2.pex.report
+*pexStartRVE: 1
+*pexMaskDBFile: MUX2.maskdb
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: EECS391
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: MUX2.def
