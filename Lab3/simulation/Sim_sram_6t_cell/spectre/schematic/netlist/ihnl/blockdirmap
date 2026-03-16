@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+EECS391 inverter schematic cds0
+my_sram sram_6t_cell schematic cds1
+my_sram Sim_sram_6t_cell schematic cds2

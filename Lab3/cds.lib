@@ -6,3 +6,4 @@ DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
 DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
 DEFINE EECS391 /home/gel8580/CE391/Lab2/EECS391
 DEFINE Lab3Lib ./Lab3Lib
+DEFINE my_sram /home/gel8580/CE391/Lab3/my_sram

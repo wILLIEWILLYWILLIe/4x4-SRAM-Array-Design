@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Sim_sram_6t_cell"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/gel8580/CE391/Lab3/simulation/Sim_sram_6t_cell/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "EECS391/inverter/schematic" "inverter" )
+( "my_sram/Sim_sram_6t_cell/schematic" "Sim_sram_6t_cell" )
+( "my_sram/sram_6t_cell/schematic" "sram_6t_cell" )
+ )
+( "Sim_sram_6t_cell" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds0/map" )
+( "sram_6t_cell" "ihnl/cds1/map" )
+ )

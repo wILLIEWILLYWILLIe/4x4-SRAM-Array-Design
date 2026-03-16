@@ -1,0 +1,78 @@
+// Generated for: spectre
+// Generated on: Mar  7 22:38:41 2026
+// Design library name: my_sram
+// Design cell name: Sim_sram_6t_cell
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters vdd=1.1
+include "/vol/eecs391/FreePDK45/ncsu_basekit/models/hspice/hspice_nom.include"
+
+// Library name: EECS391
+// Cell name: inverter
+// View name: schematic
+subckt inverter gnd in out vdd
+    M0 (out in gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M1 (out in vdd vdd) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+ends inverter
+// End of subcircuit definition.
+
+// Library name: my_sram
+// Cell name: sram_6t_cell
+// View name: schematic
+subckt sram_6t_cell BL BLB GND VDD WL
+    M5 (net18 net14 GND GND) NMOS_VTG w=240.0n l=50n as=2.52e-14 \
+        ad=2.52e-14 ps=450.0n pd=450.0n ld=105n ls=105n m=1
+    M4 (net14 net14 GND GND) NMOS_VTG w=240.0n l=50n as=2.52e-14 \
+        ad=2.52e-14 ps=450.0n pd=450.0n ld=105n ls=105n m=1
+    M3 (BLB WL net18 GND) NMOS_VTG w=135.00n l=50n as=1.4175e-14 \
+        ad=1.4175e-14 ps=345.00n pd=345.00n ld=105n ls=105n m=1
+    M2 (net14 WL BL GND) NMOS_VTG w=135.00n l=50n as=1.4175e-14 \
+        ad=1.4175e-14 ps=345.00n pd=345.00n ld=105n ls=105n m=1
+    M7 (net18 net14 VDD VDD) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+    M6 (net14 net14 VDD VDD) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+ends sram_6t_cell
+// End of subcircuit definition.
+
+// Library name: my_sram
+// Cell name: Sim_sram_6t_cell
+// View name: schematic
+I21 (gnd net010 in_BLB vdd) inverter
+I20 (gnd in_BL net021 vdd) inverter
+I19 (gnd in_BL net022 vdd) inverter
+I18 (gnd in_BL net023 vdd) inverter
+I15 (gnd net011 in_BL vdd) inverter
+I13 (gnd in_BLB net09 vdd) inverter
+I7 (gnd net2 in_WL vdd) inverter
+I17 (gnd in_BL net024 vdd) inverter
+I9 (gnd in_BLB net08 vdd) inverter
+I10 (gnd in_BLB net07 vdd) inverter
+I11 (gnd in_BLB net06 vdd) inverter
+V6 (net010 gnd) vsource dc=0 type=pulse val0=1.1 val1=0 period=20n delay=0 \
+        rise=20p fall=20p width=10n
+V4 (net011 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=20n \
+        delay=0 rise=20p fall=20p width=10n
+V_A (net2 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=10n \
+        delay=1n rise=20p fall=20p width=5n
+V2 (gnd 0) vsource dc=0 type=dc
+V1 (vdd 0) vsource dc=vdd type=dc
+I16 (in_BL in_BLB gnd vdd in_WL) sram_6t_cell
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=60n errpreset=moderate write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save in_WL in_BL in_BLB 
+saveOptions options save=allpub

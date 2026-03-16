@@ -1,0 +1,2 @@
+"my_sram.sram_6t_cell.schematic.termorder" (("BL" "BLB" "GND" "VDD" "WL") ("BL" "BLB" "GND" "VDD" "WL"))
+"EECS391.inverter.schematic.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))

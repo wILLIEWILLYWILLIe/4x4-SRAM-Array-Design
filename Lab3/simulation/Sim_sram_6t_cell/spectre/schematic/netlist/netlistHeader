@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar  7 22:38:41 2026
+// Design library name: my_sram
+// Design cell name: Sim_sram_6t_cell
+// Design view name: schematic
+simulator lang=spectre
+global 0

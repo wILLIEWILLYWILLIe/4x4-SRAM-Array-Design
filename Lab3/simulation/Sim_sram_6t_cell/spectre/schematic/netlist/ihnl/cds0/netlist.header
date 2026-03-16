@@ -1,0 +1,5 @@
+
+// Library name: EECS391
+// Cell name: inverter
+// View name: schematic
+subckt inverter gnd in out vdd

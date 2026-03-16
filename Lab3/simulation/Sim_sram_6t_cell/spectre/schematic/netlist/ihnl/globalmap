@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+my_sram/Sim_sram_6t_cell/schematic Sim_sram_6t_cell
+my_sram/sram_6t_cell/schematic sram_6t_cell
+EECS391/inverter/schematic inverter
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+$endparam

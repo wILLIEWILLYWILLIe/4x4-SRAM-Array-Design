@@ -1,0 +1,24 @@
+
+// Library name: my_sram
+// Cell name: Sim_sram_6t_cell
+// View name: schematic
+I21 (gnd net010 in_BLB vdd) inverter
+I20 (gnd in_BL net021 vdd) inverter
+I19 (gnd in_BL net022 vdd) inverter
+I18 (gnd in_BL net023 vdd) inverter
+I15 (gnd net011 in_BL vdd) inverter
+I13 (gnd in_BLB net09 vdd) inverter
+I7 (gnd net2 in_WL vdd) inverter
+I17 (gnd in_BL net024 vdd) inverter
+I9 (gnd in_BLB net08 vdd) inverter
+I10 (gnd in_BLB net07 vdd) inverter
+I11 (gnd in_BLB net06 vdd) inverter
+V6 (net010 gnd) vsource dc=0 type=pulse val0=1.1 val1=0 period=20n delay=0 \
+        rise=20p fall=20p width=10n
+V4 (net011 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=20n \
+        delay=0 rise=20p fall=20p width=10n
+V_A (net2 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=10n \
+        delay=1n rise=20p fall=20p width=5n
+V2 (gnd 0) vsource dc=0 type=dc
+V1 (vdd 0) vsource dc=vdd type=dc
+I16 (in_BL in_BLB gnd vdd in_WL) sram_6t_cell

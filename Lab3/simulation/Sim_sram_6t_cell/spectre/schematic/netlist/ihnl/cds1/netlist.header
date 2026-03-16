@@ -1,0 +1,5 @@
+
+// Library name: my_sram
+// Cell name: sram_6t_cell
+// View name: schematic
+subckt sram_6t_cell BL BLB GND VDD WL

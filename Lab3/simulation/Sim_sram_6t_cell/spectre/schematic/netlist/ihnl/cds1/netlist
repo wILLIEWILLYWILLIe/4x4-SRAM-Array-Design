@@ -1,0 +1,14 @@
+    M5 (net18 net14 GND GND) NMOS_VTG w=240.0n l=50n as=2.52e-14 \
+        ad=2.52e-14 ps=450.0n pd=450.0n ld=105n ls=105n m=1
+    M4 (net14 net14 GND GND) NMOS_VTG w=240.0n l=50n as=2.52e-14 \
+        ad=2.52e-14 ps=450.0n pd=450.0n ld=105n ls=105n m=1
+    M3 (BLB WL net18 GND) NMOS_VTG w=135.00n l=50n as=1.4175e-14 \
+        ad=1.4175e-14 ps=345.00n pd=345.00n ld=105n ls=105n m=1
+    M2 (net14 WL BL GND) NMOS_VTG w=135.00n l=50n as=1.4175e-14 \
+        ad=1.4175e-14 ps=345.00n pd=345.00n ld=105n ls=105n m=1
+    M7 (net18 net14 VDD VDD) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+    M6 (net14 net14 VDD VDD) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+ends sram_6t_cell
+// End of subcircuit definition.

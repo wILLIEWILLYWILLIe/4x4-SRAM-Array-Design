@@ -1,0 +1,3 @@
+simulator lang=spectre
+include "NMOS_VTG.scs"
+include "PMOS_VTG.scs"

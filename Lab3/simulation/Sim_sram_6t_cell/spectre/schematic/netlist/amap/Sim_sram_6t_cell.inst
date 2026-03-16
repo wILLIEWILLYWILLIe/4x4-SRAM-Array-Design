@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"I21n I20n I19n I18n I15n I13n I7n I17n I9n I10n I11n" "inverter"
+"V6n V4n V_An" "analogLib_vpulse_spectre"
+"V2n V1n" "analogLib_vdc_spectre"
+"I16n" "sram_6t_cell"
