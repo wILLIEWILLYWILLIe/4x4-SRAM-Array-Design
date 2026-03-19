@@ -1,23 +1,22 @@
 *lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
-*lvsRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
-*lvsLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.calibre.db
-*lvsLayoutPrimary: sram_col_1b
+*lvsRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr
+*lvsLayoutPaths: sram_4x4_arr.calibre.db
+*lvsLayoutPrimary: sram_4x4_arr
 *lvsLayoutLibrary: my_sram
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: sram_col_1b.src.net
-*lvsSourcePrimary: sram_col_1b
+*lvsSourcePath: sram_4x4_arr.src.net
+*lvsSourcePrimary: sram_4x4_arr
 *lvsSourceLibrary: my_sram
 *lvsSourceGetFromViewer: 1
-*lvsSpiceFile: sram_col_1b.sp
-*lvsERCDatabase: sram_col_1b.erc.results
-*lvsERCSummaryFile: sram_col_1b.erc.summary
-*lvsReportFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.lvs.report
-*lvsSVDBDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb
-*lvsMaskDBFile: sram_col_1b.maskdb
+*lvsSpiceFile: sram_4x4_arr.sp
+*lvsERCDatabase: sram_4x4_arr.erc.results
+*lvsERCSummaryFile: sram_4x4_arr.erc.summary
+*lvsReportFile: sram_4x4_arr.lvs.report
+*lvsMaskDBFile: sram_4x4_arr.maskdb
 *cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
 *cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: my_sram
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: sram_col_1b.def
+*cmnFDIDEFLayoutPath: sram_4x4_arr.def

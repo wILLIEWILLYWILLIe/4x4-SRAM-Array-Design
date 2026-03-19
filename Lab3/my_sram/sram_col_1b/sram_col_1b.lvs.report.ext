@@ -10,8 +10,8 @@
 
 
 REPORT FILE NAME:         sram_col_1b.lvs.report.ext
-LAYOUT NAME:              /home/gel8580/CE391/Lab3/my_sram/sram_col_1bsram_col_1b.calibre.db ('sram_col_1b')
-CREATION TIME:            Tue Mar 17 23:04:40 2026
+LAYOUT NAME:              sram_col_1b.calibre.db ('sram_col_1b')
+CREATION TIME:            Wed Mar 18 12:57:37 2026
 CURRENT DIRECTORY:        /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
 USER NAME:                gel8580
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012

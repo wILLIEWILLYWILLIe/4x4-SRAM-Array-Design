@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 2
-lvs_ExtRunTimes 1773806680 1773806681
+lvs_ExtRunTimes 1773856657 1773856658
 lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
-lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/_calibrexRC.rul_
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/_calibreLVS.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb/sram_col_1b.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.sp
 lvs_ExtOutFile EXTRACTION_REPORT sram_col_1b.lvs.report.ext

@@ -1,12 +1,12 @@
 //
-//  Rule file generated on Tue Mar 17 21:24:20 CDT 2026
+//  Rule file generated on Wed Mar 18 12:57:37 CDT 2026
 //     by Calibre Interactive - LVS (v2011.4_35.27)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "/home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.calibre.db"
+LAYOUT PATH  "sram_col_1b.calibre.db"
 LAYOUT PRIMARY "sram_col_1b"
 LAYOUT SYSTEM GDSII
 
@@ -14,9 +14,9 @@ SOURCE PATH "/home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.src.net"
 SOURCE PRIMARY "sram_col_1b"
 SOURCE SYSTEM SPICE
 
-MASK SVDB DIRECTORY "/home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb" QUERY
+MASK SVDB DIRECTORY "svdb" QUERY
 
-LVS REPORT "/home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.lvs.report"
+LVS REPORT "sram_col_1b.lvs.report"
 
 LVS REPORT OPTION NONE
 LVS FILTER UNUSED OPTION NONE SOURCE

@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Wed Mar 18 14:06:54 2026 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/_calibrexRC.rul_"
+"Wed Mar 18 14:06:56 2026 " "v2011.4_35.27" "-xrc -fmt -all /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/_calibrexRC.rul_"

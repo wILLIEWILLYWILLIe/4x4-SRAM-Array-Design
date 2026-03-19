@@ -4,7 +4,7 @@
 * Library Name:  my_sram
 * Top Cell Name: sram_col_1b
 * View Name:     schematic
-* Netlisted on:  Mar 17 23:04:40 2026
+* Netlisted on:  Mar 18 12:57:37 2026
 ************************************************************************
 
 *.EQUATION
@@ -76,12 +76,14 @@ XI0 GND VDD D net21 / small_inv
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT sence_amp BL BLB GND SE VDD
-*.PININFO SE:I BL:B BLB:B GND:B VDD:B
+.SUBCKT sence_amp BL BLB GND SE SE_out VDD
+*.PININFO SE:I BL:B BLB:B GND:B SE_out:B VDD:B
+MM8 BLB net25 SE_out VDD PMOS_VTG W=135.00n L=50n m=1
 MM6 net25 SE VDD VDD PMOS_VTG W=135.00n L=50n m=1
 MM2 net15 net25 VDD VDD PMOS_VTG W=135.00n L=50n m=1
 MM1 BL BLB net15 VDD PMOS_VTG W=135.00n L=50n m=1
 MM0 BLB BL net15 VDD PMOS_VTG W=135.00n L=50n m=1
+MM9 BLB SE SE_out GND NMOS_VTG W=90n L=50n m=1
 MM7 net25 SE GND GND NMOS_VTG W=90n L=50n m=1
 MM5 net17 SE GND GND NMOS_VTG W=90n L=50n m=1
 MM4 BL BLB net17 GND NMOS_VTG W=90n L=50n m=1
@@ -94,15 +96,15 @@ MM3 BLB BL net17 GND NMOS_VTG W=90n L=50n m=1
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT sram_col_1b BL BLB D PRE_B SE WL0 WL1 WL2 WL3 W_EN gnd vdd
-*.PININFO BL:B BLB:B D:B PRE_B:B SE:B WL0:B WL1:B WL2:B WL3:B W_EN:B gnd:B 
-*.PININFO vdd:B
+.SUBCKT sram_col_1b BL BLB D PRE_B SE SE_out WL0 WL1 WL2 WL3 W_EN gnd vdd
+*.PININFO BL:B BLB:B D:B PRE_B:B SE:B SE_out:B WL0:B WL1:B WL2:B WL3:B W_EN:B 
+*.PININFO gnd:B vdd:B
 XI3 BL BLB gnd vdd WL3 / sram_6t_cell
 XI2 BL BLB gnd vdd WL2 / sram_6t_cell
 XI1 BL BLB gnd vdd WL1 / sram_6t_cell
 XI0 BL BLB gnd vdd WL0 / sram_6t_cell
 XI4 BL BLB PRE_B vdd / precharge_circuit
 XI5 BL BLB D gnd vdd W_EN / write_circuit
-XI6 BL BLB gnd SE vdd / sence_amp
+XI6 BL BLB gnd SE SE_out vdd / sence_amp
 .ENDS
 

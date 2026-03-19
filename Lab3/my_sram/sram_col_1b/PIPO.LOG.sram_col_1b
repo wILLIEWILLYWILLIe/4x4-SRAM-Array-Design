@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.7-64b 08/21/2018 19:43 (sjfhw315) $
           : sub-version  IC6.1.7-64b.500.22 
-Started at: 18-Mar-2026  12:37:08
+Started at: 18-Mar-2026  12:56:18
 User Name : gel8580
 Host Name : finagle.wot.ece.northwestern.edu
 Directory : /home/gel8580/CE391/Lab3
@@ -25,32 +25,32 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC.
-INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_CDNS_773855428010.
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_CDNS_773856578760.
 INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via as STRUCTURE M2_M1_viaB.
-INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_773855428011.
-INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773855428010.
-INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773855428012.
-INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773855428013.
-INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773855428014.
-INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773855428015.
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_773856578761.
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773856578760.
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773856578762.
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773856578763.
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773856578764.
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773856578765.
 INFO (XSTRM-223): 10. Translating cellView my_sram/sram_6t_cell/layout as STRUCTURE sram_6t_cell.
-INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_CDNS_773855428011.
-INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773855428016.
-INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773855428017.
-INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773855428018.
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_CDNS_773856578761.
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773856578766.
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773856578767.
+INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773856578768.
 INFO (XSTRM-223): 15. Translating cellView my_sram/precharge_circuit/layout as STRUCTURE precharge_circuit.
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
-INFO (XSTRM-223): 16. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773855428019.
-INFO (XSTRM-223): 17. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738554280110.
-INFO (XSTRM-223): 18. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738554280111.
-INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738554280112.
-INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738554280113.
+INFO (XSTRM-223): 16. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773856578769.
+INFO (XSTRM-223): 17. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738565787610.
+INFO (XSTRM-223): 18. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738565787611.
+INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738565787612.
+INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738565787613.
 INFO (XSTRM-223): 21. Translating cellView my_sram/sence_amp/layout as STRUCTURE sence_amp.
 INFO (XSTRM-223): 22. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaB/via as STRUCTURE M3_M2_viaB.
-INFO (XSTRM-223): 23. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738554280114.
+INFO (XSTRM-223): 23. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738565787614.
 INFO (XSTRM-223): 24. Translating cellView my_sram/small_inv/layout as STRUCTURE small_inv.
-INFO (XSTRM-223): 25. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738554280115.
-INFO (XSTRM-223): 26. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738554280116.
+INFO (XSTRM-223): 25. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738565787615.
+INFO (XSTRM-223): 26. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738565787616.
 INFO (XSTRM-223): 27. Translating cellView my_sram/write_circuit/layout as STRUCTURE write_circuit.
 INFO (XSTRM-223): 28. Translating cellView my_sram/sram_col_1b/layout as STRUCTURE sram_col_1b.
 
@@ -59,7 +59,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             346
+	Rectangles:                             345
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -72,12 +72,12 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Standard Vias                           15
-	Custom Vias:                            35
+	Custom Vias:                            33
 	CdsGen Vias:                            0
 	Pathsegs:                               0
 	Text:                                   34
 	TextDisplay:                            79
 	Cells:                                  28
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 11340KB
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 11344KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

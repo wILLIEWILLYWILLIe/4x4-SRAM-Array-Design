@@ -1,6 +1,6 @@
 # CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
-# FILE: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb/sram_col_1b.dv
+# FILE: svdb/sram_col_1b.dv
 dv_start matched
 dv_cell {sram_col_1b} {sram_col_1b} matched
-dv_obj_count -transformed_nets {24 24} -transformed_inst {39 39} -transformed_port {12 12}
+dv_obj_count -transformed_nets {17 17} -transformed_inst {13 13} -transformed_port {13 13}
 dv_end

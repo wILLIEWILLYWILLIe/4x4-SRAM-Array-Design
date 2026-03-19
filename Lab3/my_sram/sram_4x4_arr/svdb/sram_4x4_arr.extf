@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1773867020 1773867021
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.sp
+lvs_ExtOutFile EXTRACTION_REPORT sram_4x4_arr.lvs.report.ext

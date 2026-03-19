@@ -3,21 +3,21 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Mar 17 21:27:47 2026
+Execution Date/Time:       Wed Mar 18 12:55:40 2026
 Calibre Version:           v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 Rule File Pathname:        /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/_calibreDRC.rul_
 Rule File Title:           
 Layout System:             GDS
-Layout Path(s):            /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.calibre.db
+Layout Path(s):            sram_col_1b.calibre.db
 Layout Primary Cell:       sram_col_1b
 Current Directory:         /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
 User Name:                 gel8580
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
-DRC Results Database:      /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.drc.results (ASCII)
+DRC Results Database:      sram_col_1b.drc.results (ASCII)
 Layout Depth:              ALL
 Text Depth:                PRIMARY
-Summary Report File:       /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.drc.summary (REPLACE)
+Summary Report File:       sram_col_1b.drc.summary (REPLACE)
 Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
                            NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Excluded Cells:           
@@ -30,17 +30,17 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER pwell ...... TOTAL Original Geometry Count = 14 (36)
-LAYER nwell ...... TOTAL Original Geometry Count = 13 (24)
-LAYER active ..... TOTAL Original Geometry Count = 85 (267)
-LAYER poly ....... TOTAL Original Geometry Count = 74 (180)
-LAYER pimplant ... TOTAL Original Geometry Count = 9  (17)
-LAYER nimplant ... TOTAL Original Geometry Count = 9  (25)
+LAYER pwell ...... TOTAL Original Geometry Count = 13 (37)
+LAYER nwell ...... TOTAL Original Geometry Count = 13 (25)
+LAYER active ..... TOTAL Original Geometry Count = 81 (281)
+LAYER poly ....... TOTAL Original Geometry Count = 73 (188)
+LAYER pimplant ... TOTAL Original Geometry Count = 9  (18)
+LAYER nimplant ... TOTAL Original Geometry Count = 8  (26)
 LAYER vth ........ TOTAL Original Geometry Count = 0  (0)
-LAYER vtg ........ TOTAL Original Geometry Count = 18 (42)
-LAYER metal1 ..... TOTAL Original Geometry Count = 88 (253)
-LAYER contact .... TOTAL Original Geometry Count = 11 (105)
-LAYER metal2 ..... TOTAL Original Geometry Count = 26 (59)
+LAYER vtg ........ TOTAL Original Geometry Count = 17 (44)
+LAYER metal1 ..... TOTAL Original Geometry Count = 85 (257)
+LAYER contact .... TOTAL Original Geometry Count = 11 (109)
+LAYER metal2 ..... TOTAL Original Geometry Count = 29 (65)
 LAYER metal3 ..... TOTAL Original Geometry Count = 2  (3)
 LAYER metal4 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal5 ..... TOTAL Original Geometry Count = 0  (0)
@@ -49,7 +49,7 @@ LAYER metal7 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal8 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal9 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal10 .... TOTAL Original Geometry Count = 0  (0)
-LAYER via1 ....... TOTAL Original Geometry Count = 2  (34)
+LAYER via1 ....... TOTAL Original Geometry Count = 2  (37)
 LAYER via2 ....... TOTAL Original Geometry Count = 1  (2)
 LAYER via3 ....... TOTAL Original Geometry Count = 0  (0)
 LAYER via4 ....... TOTAL Original Geometry Count = 0  (0)
@@ -236,6 +236,6 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 352 (1047)
+TOTAL Original Layer Geometries: 344 (1092)
 TOTAL DRC RuleChecks Executed:   167
 TOTAL DRC Results Generated:     0 (0)

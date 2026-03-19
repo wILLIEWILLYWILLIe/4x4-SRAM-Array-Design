@@ -1,24 +1,24 @@
 *pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
-*pexRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
-*pexLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_col_1bsram_col_1b.calibre.db
-*pexLayoutPrimary: sram_col_1b
+*pexRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr
+*pexLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.calibre.db
+*pexLayoutPrimary: sram_4x4_arr
 *pexLayoutLibrary: my_sram
 *pexLayoutView: layout
 *pexLayoutGetFromViewer: 1
-*pexSourcePath: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.src.net
-*pexSourcePrimary: sram_col_1b
+*pexSourcePath: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.src.net
+*pexSourcePrimary: sram_4x4_arr
 *pexSourceLibrary: my_sram
 *pexSourceGetFromViewer: 1
 *pexIncludeSVRFCmds: 1
 *pexSVRFCmds: {LAYOUT CASE YES} {SOURCE CASE YES} {}
-*pexReportFile: sram_col_1b.lvs.report
-*pexPexNetlistFile: sram_col_1b.pex.netlist
+*pexReportFile: sram_4x4_arr.lvs.report
+*pexPexNetlistFile: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.pex.netlist
 *pexPexNetlistFormat: CALIBREVIEW
 *pexPexReport: 1
-*pexPexReportFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.pex.report
-*pexSVDBDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb
+*pexPexReportFile: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.pex.report
+*pexSVDBDir: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/svdb
 *pexStartRVE: 1
-*pexMaskDBFile: sram_col_1b.maskdb
+*pexMaskDBFile: sram_4x4_arr.maskdb
 *cmnShowOptions: 1
 *cmnUseCBforRVE: 0
 *cmnRunHier: 2
@@ -27,4 +27,4 @@
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: my_sram
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: sram_col_1b.def
+*cmnFDIDEFLayoutPath: sram_4x4_arr.def

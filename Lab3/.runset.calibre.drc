@@ -1,12 +1,12 @@
 *drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
-*drcRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
-*drcLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.calibre.db
-*drcLayoutPrimary: sram_col_1b
+*drcRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr
+*drcLayoutPaths: sram_4x4_arr.calibre.db
+*drcLayoutPrimary: sram_4x4_arr
 *drcLayoutLibrary: my_sram
 *drcLayoutView: layout
 *drcLayoutGetFromViewer: 1
-*drcResultsFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.drc.results
-*drcSummaryFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.drc.summary
+*drcResultsFile: sram_4x4_arr.drc.results
+*drcSummaryFile: sram_4x4_arr.drc.summary
 *drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
 *drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
@@ -15,4 +15,4 @@
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: my_sram
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: sram_col_1b.def
+*cmnFDIDEFLayoutPath: sram_4x4_arr.def

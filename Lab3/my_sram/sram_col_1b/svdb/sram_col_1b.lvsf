@@ -5,5 +5,5 @@ lvs_LvsInputSummary {0 0 0}
 lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT sram_col_1b.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.src.net
-lvs_LvsOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/_calibrexRC.rul_
-lvs_LvsRunTimes 1773806681 1773806681
+lvs_LvsOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/_calibreLVS.rul_
+lvs_LvsRunTimes 1773856658 1773856658

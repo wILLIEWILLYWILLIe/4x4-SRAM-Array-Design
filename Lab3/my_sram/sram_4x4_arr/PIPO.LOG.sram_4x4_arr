@@ -1,0 +1,85 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 08/21/2018 19:43 (sjfhw315) $
+          : sub-version  IC6.1.7-64b.500.22 
+Started at: 18-Mar-2026  15:50:18
+User Name : gel8580
+Host Name : finagle.wot.ece.northwestern.edu
+Directory : /home/gel8580/CE391/Lab3
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 my_sram
+strmFile                                /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/sram_4x4_arr.calibre.db
+topCell                                 sram_4x4_arr
+view                                    layout
+runDir                                  /home/gel8580/CE391/Lab3/my_sram/sram_4x4_arr/
+logFile                                 PIPO.LOG.sram_4x4_arr
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC.
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaB/via as STRUCTURE M3_M2_viaB.
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via as STRUCTURE M2_M1_viaB.
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaC/via as STRUCTURE M3_M2_viaC.
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_CDNS_773867018570.
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_773867018571.
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773867018570.
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773867018572.
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773867018573.
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773867018574.
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773867018575.
+INFO (XSTRM-223): 12. Translating cellView my_sram/sram_6t_cell/layout as STRUCTURE sram_6t_cell.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_CDNS_773867018571.
+INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773867018576.
+INFO (XSTRM-223): 15. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773867018577.
+INFO (XSTRM-223): 16. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_773867018578.
+INFO (XSTRM-223): 17. Translating cellView my_sram/precharge_circuit/layout as STRUCTURE precharge_circuit.
+INFO (XSTRM-223): 18. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_773867018579.
+INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738670185710.
+INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738670185711.
+INFO (XSTRM-223): 21. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738670185712.
+INFO (XSTRM-223): 22. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_7738670185713.
+INFO (XSTRM-223): 23. Translating cellView my_sram/sence_amp/layout as STRUCTURE sence_amp.
+INFO (XSTRM-223): 24. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738670185714.
+INFO (XSTRM-223): 25. Translating cellView my_sram/small_inv/layout as STRUCTURE small_inv.
+INFO (XSTRM-223): 26. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738670185715.
+INFO (XSTRM-223): 27. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_7738670185716.
+INFO (XSTRM-223): 28. Translating cellView my_sram/write_circuit/layout as STRUCTURE write_circuit.
+INFO (XSTRM-223): 29. Translating cellView my_sram/sram_col_1b/layout as STRUCTURE sram_col_1b.
+INFO (XSTRM-223): 30. Translating cellView my_sram/sram_4x4_arr/layout as STRUCTURE sram_4x4_arr.
+
+Summary of Objects Translated:
+	Scalar Instances:                       59
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             398
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           15
+	Custom Vias:                            73
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   34
+	TextDisplay:                            114
+	Cells:                                  30
+
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 11460KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

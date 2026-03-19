@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+my_sram/precharge_circuit/schematic precharge_circuit
+my_sram/sram_4x4_arr/schematic sram_4x4_arr
+my_sram/sence_amp/schematic sence_amp
+my_sram/sram_col_1b/schematic sram_col_1b
+my_sram/small_inv/schematic small_inv
+my_sram/sram_6t_cell/schematic sram_6t_cell
+my_sram/write_circuit/schematic write_circuit
+$endmodel
+$net
+$endnet
+$param
+$endparam

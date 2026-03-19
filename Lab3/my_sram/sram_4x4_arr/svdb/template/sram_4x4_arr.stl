@@ -1,0 +1,18 @@
+%	sram_4x4_arr	sram_4x4_arr
+SE	SE	0	x 0 0
+WL0	WL0	0	x 0 0
+WL3	WL3	0	x 0 0
+WL2	WL2	0	x 0 0
+WL1	WL1	0	x 0 0
+PRE_B	PRE_B	0	x 0 0
+gnd	gnd	0	x 0 0
+vdd	vdd	0	x 0 0
+D0	D0	0	x 0 0
+Sout0	Sout0	0	x 0 0
+Sout1	Sout1	0	x 0 0
+D1	D1	0	x 0 0
+D2	D2	0	x 0 0
+Sout2	Sout2	0	x 0 0
+Sout3	Sout3	0	x 0 0
+D3	D3	0	x 0 0
+W_EN	W_EN	0	x 0 0
