@@ -1,0 +1,8 @@
+
+// Library name: my_sram
+// Cell name: sram_4x4_arr
+// View name: calibre
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+//pspice dspf
+subckt sram_4x4_arr D0 D1 D2 D3 PRE_B SE Sout0 Sout1 Sout2 Sout3 WL0 WL1 \
+        WL2 WL3 W_EN gnd vdd

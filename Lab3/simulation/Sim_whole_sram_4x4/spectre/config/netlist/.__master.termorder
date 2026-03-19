@@ -1,0 +1,4 @@
+"EECS391.inverter.schematic.my_sram.Sim_whole_sram_4x4.config.path.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))
+"my_sram.my4InvLoad.schematic.my_sram.Sim_whole_sram_4x4.config.path.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))
+"my_sram.sram_4x4_arr.calibre.my_sram.Sim_whole_sram_4x4.config.path.termorder" (("D0" "D1" "D2" "D3" "PRE_B" "SE" "Sout0" "Sout1" "Sout2" "Sout3" "WL0" "WL1" "WL2" "WL3" "W_EN" "gnd" "vdd") ("D0" "D1" "D2" "D3" "PRE_B" "SE" "Sout0" "Sout1" "Sout2" "Sout3" "WL0" "WL1" "WL2" "WL3" "W_EN" "gnd" "vdd"))
+"my_sram.small_inv.schematic.my_sram.Sim_whole_sram_4x4.config.path.termorder" (("GND" "VDD" "in" "out") ("GND" "VDD" "in" "out"))

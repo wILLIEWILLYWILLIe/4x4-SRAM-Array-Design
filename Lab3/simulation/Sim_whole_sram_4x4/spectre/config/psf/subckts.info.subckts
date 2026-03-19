@@ -1,0 +1,41 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.556.isr13"
+"date" "10:03:48 AM, Thur Mar 19, 2026"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"inverter" "subckt" (
+""
+"gnd in out vdd"
+"I55 I54 I38 I48 I36 I34 I24 I49 I47 I7 I53"
+)
+"small_inv" "subckt" (
+""
+"GND VDD in out"
+"I40.I3 I40.I2 I40.I1 I40.I0 I39.I3 I39.I2 I39.I1 I39.I0 I52.I3 I52.I2 I52.I1 I52.I0 I51.I3 I51.I2 I51.I1 I51.I0"
+)
+"my4InvLoad" "subckt" (
+""
+"gnd in out vdd"
+"I40 I39 I52 I51"
+)
+"sram_4x4_arr" "subckt" (
+""
+"D0 D1 D2 D3 PRE_B SE Sout0 Sout1 Sout2 Sout3 WL0 WL1 WL2 WL3 W_EN gnd vdd"
+"I50"
+)
+END

@@ -1,0 +1,7 @@
+CADENCE IHNL11145
+
+EECS391 inverter schematic nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf my_sram Sim_whole_sram_4x4 config 0 cds0
+my_sram small_inv schematic nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf my_sram Sim_whole_sram_4x4 config 0 cds1
+my_sram my4InvLoad schematic nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf my_sram Sim_whole_sram_4x4 config 0 cds2
+my_sram sram_4x4_arr calibre nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf my_sram Sim_whole_sram_4x4 config 0 cds3
+my_sram Sim_whole_sram_4x4 schematic nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf my_sram Sim_whole_sram_4x4 config 1 cds4

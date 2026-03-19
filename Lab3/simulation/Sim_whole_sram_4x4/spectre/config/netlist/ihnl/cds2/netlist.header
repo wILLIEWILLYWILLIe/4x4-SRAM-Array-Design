@@ -1,0 +1,7 @@
+
+// Library name: my_sram
+// Cell name: my4InvLoad
+// View name: schematic
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+//pspice dspf
+subckt my4InvLoad gnd in out vdd

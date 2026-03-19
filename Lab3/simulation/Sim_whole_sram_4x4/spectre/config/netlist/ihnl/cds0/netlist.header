@@ -1,0 +1,7 @@
+
+// Library name: EECS391
+// Cell name: inverter
+// View name: schematic
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+//pspice dspf
+subckt inverter gnd in out vdd

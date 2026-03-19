@@ -1,0 +1,8 @@
+Spectre (R) Circuit Simulator
+Version 18.1.0.556.isr13 64bit -- 10 Dec 2019
+Simulating `input.scs' on finagle.wot.ece.northwestern.edu at 10:03:48 AM, Thur Mar 19, 2026 (process id: 4147569).
+H = mpsImport( "spectre" "ipi" "v0.0" ?session "spectre1_4101828_3" )
+H->sclSetResultDir( "../psf" )
+H->sclRun( "all" )
+sclCkt0xa21c630 = H->sclGetCircuit(  "" )
+H->sclQuit(  )

@@ -25,7 +25,7 @@ tmp3 = make_sevVariableStruct()
 tmp3 = (ncons nil)
 )
 tmp3->name = "tbit"
-tmp3->expression = "100p"
+tmp3->expression = "31.25p"
 tmp3->index = 3
 (unless tmp4
 tmp4 = make_sevVariableStruct()
@@ -34,7 +34,7 @@ tmp4 = make_sevVariableStruct()
 tmp4 = (ncons nil)
 )
 tmp4->name = "t_period"
-tmp4->expression = "0.8n"
+tmp4->expression = "250p"
 tmp4->index = 4
 (unless tmp5
 tmp5 = make_sevVariableStruct()
@@ -43,7 +43,7 @@ tmp5 = make_sevVariableStruct()
 tmp5 = (ncons nil)
 )
 tmp5->name = "t_period_2"
-tmp5->expression = "400p"
+tmp5->expression = "125p"
 tmp5->index = 5
 list(tmp1 tmp2 tmp3 tmp4 tmp5)
 )

@@ -1,0 +1,6 @@
+    I3 (gnd vdd in out) small_inv
+    I2 (gnd vdd in out) small_inv
+    I1 (gnd vdd in out) small_inv
+    I0 (gnd vdd in out) small_inv
+ends my4InvLoad
+// End of subcircuit definition.

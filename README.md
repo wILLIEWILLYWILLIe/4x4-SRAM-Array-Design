@@ -1,22 +1,10 @@
-# CE391 CMOS Design
+# 4x4 SRAM Array Design (CMOS VLSI)
 
-This folder contains the laboratories and project files for the CE391 CMOS Design course. It is configured to use the Cadence Virtuoso toolset with the FreePDK45 technology library.
+This repository contains the design, layout, and simulation files for a custom 4x4 SRAM array. Developed as the focus project for the **COMP_ENG_391-0_SEC1 CMOS VLSI Circuit Design** course, the project is implemented using the Cadence Virtuoso toolset with the FreePDK45 technology library.
 
-## Directory Contents & Lab Reports
+## SRAM Array Highlights (Lab 3)
 
-- **[Lab 1: CMOS Inverter Design & Layout](Lab1/CMOS_Lab1_gel8580.pdf)**
-  Introduction to the Cadence Virtuoso toolset. Covers the schematic design, simulation, layout, DRC, and LVS verification of a basic CMOS inverter.
-- **[Lab 2: NAND2 Gate Design](Lab2/CMOS_Lab2.pdf)**
-  Focuses on the logical effort, theoretical transistor sizing, schematic simulation, and standard cell layout of a 2-input NAND gate, NOR gate, and MUX21.
-- **[Lab 3: 4x4 SRAM Array Design (Focus Project)](Lab3/CMOS_Lab3.pdf)**
-  Comprehensive design of a 4x4 SRAM array including the 6T SRAM bitcell, bitline precharge circuits, write drivers, and sense amplifiers. Includes post-layout simulations and full array layout.
-- `Virtuoso_Tutorial.pdf`: Full step-by-step tutorial for the design flow.
-- `env_vir.csh`: Environment variables and setup script.
-- `cds.lib`: Cadence library definitions.
-
-### Lab 3: SRAM Array Highlights
-
-Below are some key figures from the Lab 3 SRAM implementation:
+The **[Lab 3 Final Report](Lab3/CMOS_Lab3.pdf)** details the comprehensive design of the 4x4 SRAM array, which includes the 6T SRAM bitcell, bitline precharge circuits, write drivers, and sense amplifiers. Post-layout simulations verify the functional correctness and timing of the full array layout.
 
 **4x4 SRAM Array Layout**
 
@@ -25,6 +13,22 @@ Below are some key figures from the Lab 3 SRAM implementation:
 **Post-Layout Simulation Waveforms**
 
 <img src="Figures/wave_post_0.8n.png" alt="Post-Layout Simulation Waveforms" width="500">
+
+## Additional Labs (Appendix)
+
+- **[Lab 1: CMOS Inverter Design & Layout](Lab1/CMOS_Lab1_gel8580.pdf)**
+  Introduction to the Cadence Virtuoso toolset. Covers the schematic design, simulation, layout, DRC, and LVS verification of a basic CMOS inverter.
+- **[Lab 2: NAND2 Gate Design](Lab2/CMOS_Lab2.pdf)**
+  Focuses on the logical effort, theoretical transistor sizing, schematic simulation, and standard cell layout of a 2-input NAND gate, NOR gate, and MUX21.
+
+## Repository Contents
+
+- `Lab3/`: 4x4 SRAM Array Design files and report.
+- `Lab1/`: Laboratory 1 project files.
+- `Lab2/`: Laboratory 2 project files.
+- `Virtuoso_Tutorial.pdf`: Full step-by-step tutorial for the design flow.
+- `env_vir.csh`: Environment variables and setup script.
+- `cds.lib`: Cadence library definitions.
 
 
 ## Environment Setup

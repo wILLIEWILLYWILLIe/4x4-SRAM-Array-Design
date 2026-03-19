@@ -1,0 +1,6 @@
+    M0 (out in VDD VDD) PMOS_VTG w=135.00n l=50n as=1.4175e-14 \
+        ad=1.4175e-14 ps=345.00n pd=345.00n ld=105n ls=105n m=1
+    M1 (out in GND GND) NMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+ends small_inv
+// End of subcircuit definition.

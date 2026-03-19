@@ -1,0 +1,29 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Sim_whole_sram_4x4"
+  repList "spectre cmos_sch cmos.sch schematic veriloga ahdl pspice dspf"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/gel8580/CE391/Lab3/simulation/Sim_whole_sram_4x4/spectre/config/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "EECS391/inverter/schematic" "inverter" )
+( "my_sram/my4InvLoad/schematic" "my4InvLoad" )
+( "my_sram/sram_4x4_arr/calibre" "sram_4x4_arr" )
+( "my_sram/small_inv/schematic" "small_inv" )
+( "my_sram/Sim_whole_sram_4x4/schematic" "Sim_whole_sram_4x4" )
+ )
+( param
+( "n" "_gpar0" )
+ )
+( "sram_4x4_arr" "ihnl/cds3/map" )
+( "small_inv" "ihnl/cds1/map" )
+( "my4InvLoad" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds0/map" )
+( "Sim_whole_sram_4x4" "ihnl/cds4/map" )
+ )
